@@ -8,7 +8,7 @@
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
 
-<script type="text/javascript">
+ <script type="text/javascript">
 function confirmDelete(){
 
 return confirm("Are you sure, to delete ?");
