@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
     
-    <%@ taglib uri="http://www.springframework.org/tags" prefix="form" %>
+    <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,17 +14,17 @@
 ${succMsg}
 <table>
     <tr>
-       <td>Name: </td>td>
+       <td>Name: </td>
        <td><form:input path="contactName"/></td>
 </tr>
 
 <tr>
-     <td>Email: </td>td>
+     <td>Email: </td>
       <td><form:input path="contactEmail"/></td>
 </tr>
 
 <tr>
-       <td>Phno: </td>td>
+       <td>Phno: </td>
        <td><form:input path="contactNumber"/></td>
 </tr>
 <tr>

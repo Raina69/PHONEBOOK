@@ -26,13 +26,11 @@ public class Contact {
 	@Column(name="CONTACT_EMAIL")
 	private String contactEmail;
 
-	public Object getContactId() {
-		// TODO Auto-generated method stub
-		return null;
+	
 	}
 
 	
-	}
+	
 
 	
 	
